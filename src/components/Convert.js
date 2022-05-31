@@ -26,7 +26,7 @@ const Convert = ({language, text}) => {
         }
         );
         //Uncaught (in promise) TypeError: Cannot read properties of undefined (reading '0') at doTranslation
-        setTranslated(data.data.traslations[0].translatedText);
+        setTranslated(data.data.translations[0].translatedText);
     };
 
     doTranslation();    
